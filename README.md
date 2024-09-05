@@ -3,13 +3,17 @@ School assignment
 
 This Unity DOTS system efficiently manages player movement, bullet firing, and spawning using a data-oriented approach. Key features include:
 
-Data Management: Uses Entities, Components, and Systems to keep data and behavior separate, which boosts performance.
+- Data Management 
+Uses Entities, Components, and Systems to keep data and behavior separate, which boosts performance.
 
-Burst Compiler: Speeds up calculations by optimizing code with Burst, especially for tasks like moving players and bullets.
+- Burst Compiler 
+Speeds up calculations by optimizing code with Burst, especially for tasks like moving players and bullets.
 
-Jobs System: Allows parallel processing, so things like player movement happen faster and more smoothly.
+- Jobs System 
+Allows parallel processing, so things like player movement happen faster and more smoothly.
 
-EntityCommandBuffer: Groups entity changes together for better performance, used when firing bullets and resetting input.
+- EntityCommandBuffer 
+Groups entity changes together for better performance, used when firing bullets and resetting input.
 
 Process:
 
