@@ -18,7 +18,7 @@ public class SpawnerAuthoring : MonoBehaviour
             AddComponent(entity, new Spawner
             {
                 _prefab = GetEntity(authoring._prefab, TransformUsageFlags.Dynamic),
-                _spawnPosition = new float2(0, 5),
+                _spawnPosition = new float2(0, 6f),
                 _nextSpawnTime = 0,
                 _spawnRate = authoring._spawnRate,
             });
