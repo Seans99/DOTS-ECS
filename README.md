@@ -25,6 +25,8 @@ The Burst Compiler was applied to speed up important calculations for movement a
 
 I also used the Jobs System to run tasks in parallel, which greatly improved how quickly I could update player and bullet positions.
 
+This is not a finished game, as the collisions and other things are missing, these were not required for the assignment.
+
 Reflection:
 
 Separating data and behavior with ECS helped manage complex interactions and keep performance high.
