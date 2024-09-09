@@ -19,13 +19,15 @@ Process:
 
 The main goal was to build a high performance system in Unity using DOTS for smooth player movement, efficient bullet firing, and effective spawning.
 
+This is not a finished game, as the collisions and other things are missing, these were not required for the assignment as the projects focus was to do certain game features in a performance efficiant way.
+
+In this project there is player movement, player shooting. And spawning enemies that appear in random spots on top of the screen, and move downwards.
+
 I used Unity's Entity Component System (ECS) to organize data into entities and components, which helps the system process everything quickly.
 
 The Burst Compiler was applied to speed up important calculations for movement and firing.
 
 I also used the Jobs System to run tasks in parallel, which greatly improved how quickly I could update player and bullet positions.
-
-This is not a finished game, as the collisions and other things are missing, these were not required for the assignment.
 
 Reflection:
 
